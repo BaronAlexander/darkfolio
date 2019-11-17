@@ -4,8 +4,10 @@
   "scripts": {
     "build": "gridsome build",
     "develop": "gridsome develop",
-    "explore": "gridsome explore"
-  },
+    "explore": "gridsome explore",
+    "plugins-1": "npm install @gridsome/plugin-google-analytics && npm install @gridsome/source-filesystem && npm install @gridsome/transformer-remark && npm install @gridsome/plugin-sitemap && npm install gridsome-plugin-gtm --save && npm install gridsome-plugin-pwa && npm install -D gridsome-plugin-svg",
+    "plugins-2": "npm install @gridsome/transformer-yaml && npm install gridsome-plugin-modal --save && npm install @gridsome/transformer-json && npm install gridsome-source-graphql && npm install -D typescript ts-loader gridsome-plugin-typescript && npm i gridsome-plugin-base-components && npm install gridsome-source-firestore && npm install gridsome-transformer-vue"
+   },
   "dependencies": {
     "gridsome": "^0.6.0"
   },
